@@ -7,7 +7,7 @@ from django.utils.formats import number_format
 from django.http import HttpResponse
 
 
-class XLSResponseMixin(object):
+class XlsResponseMixin(object):
     """
     Inheriting classes must implement get_object().
     The object returned must have property tabular_result and optional table_header and table_preface.
