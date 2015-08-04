@@ -5,7 +5,7 @@ Util for quick XLS responses in views.
 
 Requires django and xlwt.
 
-Usage::
+Usage:
 
 
     class BitterButter(DetailView):
